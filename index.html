@@ -2,106 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        html{
-            font-size: 2rem;
-            margin: 0px auto;
-        }
-        table
-        { 
-            margin-left: auto;
-            margin-right: auto;
-        }
-        body{
-            background-size: cover;
-            
-            background-position: center center;
-        } 
-    </style>
+    <title>Planet Savier</title>
     <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
 </head>
-    <body style="text-align: center;background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/88b27db8-34b5-4a8e-a3fe-caa3d92fa611/deore3e-bc41cfd0-a29c-4821-97e8-bbea73052392.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzg4YjI3ZGI4LTM0YjUtNGE4ZS1hM2ZlLWNhYTNkOTJmYTYxMVwvZGVvcmUzZS1iYzQxY2ZkMC1hMjljLTQ4MjEtOTdlOC1iYmVhNzMwNTIzOTIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-rh_o_WdLqIB4KUUgBl2da8r4x8xQD60pzkg18hRLr8');">
-        <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%">
-	<filter id="filter-zjq145yry">
-		<feTurbulence baseFrequency="0.0002" numOctaves="10" seed="629"></feTurbulence>
-		<feColorMatrix values="3.5 -2.1 0.4 -0.9 0.1 2.1 0.3 3.2 -3.7 -0.5 2.1 0.9 0.8 1.7 -0.5 -1.3 4 -2.4 0.7 1.9"></feColorMatrix>
-	</filter>
-	<rect width="100%" height="100%" filter="url(#filter-zjq145yry)"></rect>
-</svg>
-        <table >
-            <tr>
-                <img width="1440" height="810" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0858a3e3-9a9b-4be0-8875-33bc54e76861/dehw3zi-40d90973-6e68-473f-84eb-de6eaf5dc062.png/v1/fill/w_1920,h_1080,q_80,strp/the_elemental__genshin_impact__by_desquishyfish_dehw3zi-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcLzA4NThhM2UzLTlhOWItNGJlMC04ODc1LTMzYmM1NGU3Njg2MVwvZGVodzN6aS00MGQ5MDk3My02ZTY4LTQ3M2YtODRlYi1kZTZlYWY1ZGMwNjIucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.G4mwC6lDUwSlFe-N6Vf3slCWltEaPukdKv5ZOq-DVvc" alt="">
-            </tr>
-            <tr>
-                <td>
-                    <img width="480" height="270" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ea421add-6bd0-4cf8-aa09-a6be7c8f37c7/defclwx-d76e5516-684c-4a49-9f50-dc6cc0112fc5.jpg/v1/fill/w_1192,h_670,q_70,strp/ganyu_desktop_wallpaper_by_dprospect_defclwx-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZWE0MjFhZGQtNmJkMC00Y2Y4LWFhMDktYTZiZTdjOGYzN2M3XC9kZWZjbHd4LWQ3NmU1NTE2LTY4NGMtNGE0OS05ZjUwLWRjNmNjMDExMmZjNS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.URr-5KTMhutwVKRGsgyD0Lj9_rJ-xVdS_vYfuCJfNmc" alt="">
-                </td>
-                <td>
-                    <img width="480" height="270" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0858a3e3-9a9b-4be0-8875-33bc54e76861/desafx4-c43b78a7-80b4-433f-9a01-2f405cd7edc2.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA4NThhM2UzLTlhOWItNGJlMC04ODc1LTMzYmM1NGU3Njg2MVwvZGVzYWZ4NC1jNDNiNzhhNy04MGI0LTQzM2YtOWEwMS0yZjQwNWNkN2VkYzIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.CioEXo2hjVxqghtbWlvhGHFEcrhWlJkKNLFDmsgji_Y" alt="">
-                </td>
-                <td>
-                    <img width="480" height="270" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cbc97785-54b3-4911-96e0-f3dbc79e2224/defvhop-c8ae6328-bda8-4ecf-8d05-171fb2a28391.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NiYzk3Nzg1LTU0YjMtNDkxMS05NmUwLWYzZGJjNzllMjIyNFwvZGVmdmhvcC1jOGFlNjMyOC1iZGE4LTRlY2YtOGQwNS0xNzFmYjJhMjgzOTEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.DAjqIEYtcypvjgwLNgM2AW8ofF6tOccOvVzCWmaVLFA" alt="">
-                </td>
-            </tr>
-        </table>
-    <h1 style="color: red">
-        <b>
-            
-            <br>
-                Trailer Ganyu - Genshin impact
-            <br>
-            
-        </b>
-    </h1>
-    <table align="center">
-        <tr>
-            <td>
-                <iframe width="480" height="270" src="https://www.youtube.com/embed/ASO6t2zp_UI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </td>
-            <td>
-                <iframe width="480" height="270" src="https://www.youtube.com/embed/FHRXP8ceeBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </td>
-        </tr>
-    </table>
-            <br>
-            <br>
-    <table>
-        <tr>
-            <img width="1440" height="810" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/be9354a8-ab7f-4660-8d54-8861fb1c81e7/dem2wqw-28d5fe4c-2560-4dc9-a357-94a743a995aa.jpg/v1/fill/w_1280,h_720,q_75,strp/genshin_impact___ganyu_wallpaper_by_hierosonyma_dem2wqw-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvYmU5MzU0YTgtYWI3Zi00NjYwLThkNTQtODg2MWZiMWM4MWU3XC9kZW0yd3F3LTI4ZDVmZTRjLTI1NjAtNGRjOS1hMzU3LTk0YTc0M2E5OTVhYS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.2pFScIkjqCkkyRyRxQcjRgx6AXB04Jdh_MCsrazmlz8" alt="">
-        </tr>
-        <tr>
-            <td>
-                <img width="480" height="270" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/04a19999-f5c8-469c-a8b7-ec7b602568a0/dej18ox-24da1942-5fd2-4cc8-8306-878222dc2ef4.png/v1/fill/w_1280,h_720,q_80,strp/ganyu_wallpaper___a_night_in_liyue_harbor_by_amarislindsey_dej18ox-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvMDRhMTk5OTktZjVjOC00NjljLWE4YjctZWM3YjYwMjU2OGEwXC9kZWoxOG94LTI0ZGExOTQyLTVmZDItNGNjOC04MzA2LTg3ODIyMmRjMmVmNC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.9gj-t-oVAlBJxLxVaR_9SpWemb0MIA2qkxdJ5VqW-38" alt="">
-            </td>
-            <td>
-                <img width="480" height="270" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1e9d72e3-90f5-4a86-b343-d1ea3005bbe9/deqn5no-cfc9d0c9-b86c-4d80-96b2-f4eec365fcc4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFlOWQ3MmUzLTkwZjUtNGE4Ni1iMzQzLWQxZWEzMDA1YmJlOVwvZGVxbjVuby1jZmM5ZDBjOS1iODZjLTRkODAtOTZiMi1mNGVlYzM2NWZjYzQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.EhJ6yBCP2UYmBm72YZqVupxcwAjnxEflfOndTy1rtCU" alt="">
-            </td>
-            <td>
-                <img width="480" height="270" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d5004956-c7d5-44dc-b1c3-080cf8827715/decp73r-09418030-34b4-464f-b976-2e62a13981a3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Q1MDA0OTU2LWM3ZDUtNDRkYy1iMWMzLTA4MGNmODgyNzcxNVwvZGVjcDczci0wOTQxODAzMC0zNGI0LTQ2NGYtYjk3Ni0yZTYyYTEzOTgxYTMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.bOhPaRKqtk9Oqu-ACXKqdFmBvv8xVsDtKlfISkBqOR8" alt="">
-            </td>
-        </tr>
-    </table>
-    <footer style="color: red;">
-        <table>
-            <tr>
-                <td>
-                    <img width="360" height="202.5"src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/931e6a27-8e9e-4022-bbe8-acbe971f7fd6/dedqzq5-22e50e7c-cd6a-465d-a46c-6da00a9bc343.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzkzMWU2YTI3LThlOWUtNDAyMi1iYmU4LWFjYmU5NzFmN2ZkNlwvZGVkcXpxNS0yMmU1MGU3Yy1jZDZhLTQ2NWQtYTQ2Yy02ZGEwMGE5YmMzNDMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.eRwX7NZ8laZ2lCa7QoaY8s3S573SuhCt1MBMRHK35EQ" alt=""> 
-                </td>
-                <td>
-                    
-                    Thông Tin Liên Lạc
-                    <br>
-                    Email: phuchauTN0312@gmail.com
-                    <br>
-                    Facebook: <a href="https://www.facebook.com/tnp.jella/">TNphuchau</a> 
-                </td>
-            </tr>
-        </table>
-    </footer>
-    <div class="float"></div>
-</html>
+<body>
+    <canvas id="canvas"></canvas>
+    <a class="full-screen" target="_blank"></a>
 </body>
 </html>
